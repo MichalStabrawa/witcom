@@ -68,6 +68,7 @@ header {
     color: #fff;
     justify-content: center;
     align-items: center;
+    background-attachment: fixed;
 }
 
 header h1 {
@@ -228,4 +229,7 @@ input[type="text"], textarea {
     margin: 10px;
     border: 0px;
     border-bottom: 1px solid #fff;
+}
+input[type="text"]:active {
+    border-botom: 1px solid red;
 }
