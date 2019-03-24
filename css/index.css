@@ -239,3 +239,14 @@ footer {
     color: #413d88;
     padding: 80px 0 80px 0;
 }
+
+.offert-btn {
+    width: 100%;
+    text-align: right;
+}
+
+.offert-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
