@@ -230,8 +230,11 @@ input[type="text"], textarea {
     border: 0px;
     border-bottom: 1px solid #fff;
 }
-input[type="text"]:active {
-    border-botom: 1px solid red;
+input[type="text"]::placeholder {
+   color: #ff530d;
+}
+textarea::placeholder {
+    color: #ff530d;
 }
 
 footer {
