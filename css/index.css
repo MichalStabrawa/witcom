@@ -4,13 +4,17 @@ body {
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
 }
+
 p {
     font-size: 18px;
 }
-h4{
-margin-top: 25px;
+
+h4 {
+    margin-top: 25px;
+    color: #070063;
 }
-nav{
+
+nav {
     height: 80px;
     background: #fff;
     width: 100%;
@@ -19,9 +23,11 @@ nav{
 nav img {
     height: 100%;
 }
+
 .logo {
     height: 100%;
 }
+
 .nav-main {
     max-width: 1200px;
     margin: 0 auto;
@@ -35,14 +41,16 @@ nav img {
     display: flex;
     align-items: center;
 }
+
 .nav-item a {
     margin: 10px;
     text-decoration: none;
     font-size: 18px;
     color: #070063;
 }
+
 .nav-item a:hover {
-    color:  #ff530d;
+    color: #ff530d;
     transition: 0.3s;
 }
 
@@ -57,18 +65,22 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 header h1 {
     font-size: 60px;
 }
 
-header h1, h2 {
+header h1,
+h2 {
     text-align: center;
 }
 
 .header-container {
     text-align: center;
 }
+
 /*button style */
+
 .btn-orange {
     width: 200px;
     height: 50px;
@@ -78,6 +90,7 @@ header h1, h2 {
     border: 0px;
     margin-top: 50px;
 }
+
 .btn-blue {
     width: 200px;
     height: 50px;
@@ -103,7 +116,7 @@ header h1, h2 {
     padding-bottom: 80px;
 }
 
-.icons{
+.icons {
     justify-content: space-between;
     margin-top: 80px;
     flex-wrap: wrap;
@@ -115,9 +128,14 @@ header h1, h2 {
     padding: 10px;
 }
 
-
-
 .icons .icons-item i {
-    color:  #ff530d;
+    color: #ff530d;
 }
 
+.bg-one {
+    background-image: url('../img/refinery-3127588_1920.jpg');
+    height: 65vh;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
