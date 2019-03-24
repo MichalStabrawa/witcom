@@ -1,0 +1,107 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+p {
+    font-size: 18px;
+}
+nav{
+    height: 80px;
+    background: #fff;
+    width: 100%;
+}
+
+nav img {
+    height: 100%;
+}
+.logo {
+    height: 100%;
+}
+.nav-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-item a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #070063;
+}
+
+header {
+    width: 100%;
+    background-image: url('../img/witcom-systemy-header.png');
+    height: calc(100vh - 80px);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    font-size: 60px;
+}
+
+header h1, h2 {
+    text-align: center;
+}
+
+.header-container {
+    text-align: center;
+}
+/*button style */
+.btn-orange {
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background: #ff530d;
+    margin: 0 auto;
+    border: 0px;
+    margin-top: 50px;
+}
+.btn-blue {
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border: 0px;
+    margin-top: 50px;
+    background: #413d88;
+}
+
+/* grey color section background-grey*/
+
+.grey-color {
+    background: #f5f5f0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+/* section white */
+
+.white {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.icons{
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.icons .icons-item i {
+    color:  #ff530d;
+}
+
