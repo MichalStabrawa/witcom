@@ -195,3 +195,37 @@ figure {
     margin-top:20px;
     margin-bottom: 50px;
 }
+
+/*contact-form section*/
+
+.contact-form{
+    height: 80vh;
+    background:linear-gradient(135deg, rgba(30,87,153,0.7) 0%,rgba(15,33,145,0.7) 46%,rgba(15,33,145,0.7) 46%,rgba(32,124,202,0.7) 98%,rgba(41,137,216,1) 100%), url('../img/hand-2111445_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #fff;
+}
+.contact-form h2 {
+    color: #fff;
+}
+
+
+
+form {
+    padding-top: 80px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type="text"], textarea {
+    background: transparent;
+    margin: 10px;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+}
