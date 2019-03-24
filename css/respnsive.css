@@ -1,0 +1,40 @@
+@media(max-width: 960px) {
+    .icons .icons-item i {
+        font-size: 60px;
+
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    .icons-item {
+        max-width: 33%;
+    }
+    .icons-item:nth-last-child(1), .icons-item:nth-last-child(2){
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 768px){
+    .nav-item {
+        display: none;
+    }
+   .icons .icons-item-last {
+        max-width: 50%;
+    }
+   
+}
+
+@media(max-width: 576px) {
+    .icons {
+        justify-content: center;
+    }
+    .icons-item {
+        max-width: 100%;
+    }
+    .icons-item:nth-last-child(1), .icons-item:nth-last-child(2){
+        max-width: 100%;
+    }
+    .contact-form {
+        height: auto;
+    }
+}

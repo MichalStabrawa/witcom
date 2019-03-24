@@ -233,3 +233,9 @@ input[type="text"], textarea {
 input[type="text"]:active {
     border-botom: 1px solid red;
 }
+
+footer {
+    background: #fff;
+    color: #413d88;
+    padding: 80px 0 80px 0;
+}
