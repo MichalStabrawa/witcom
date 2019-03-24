@@ -249,4 +249,18 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 320px;
+}
+.offert-content .btn-orange {
+    background: transparent;
+    color:  #ff530d;
+    border: 1px solid  #ff530d;
+    transition: 0.5s;
+
+}
+
+.offert-content .btn-orange:hover {
+    background: #ff530d;
+    color: #fff;
+
 }
