@@ -13,6 +13,7 @@ h4 {
     margin-top: 25px;
     color: #070063;
 }
+
 h2 {
     color: #3B56FF;
     text-align: center;
@@ -75,8 +76,8 @@ header h1 {
     font-size: 60px;
 }
 
-header h1,header
-h2 {
+header h1,
+header h2 {
     text-align: center;
     color: #fff;
 }
@@ -148,6 +149,7 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
 .bg-wrapper {
     max-width: 1200px;
     text-align: center;
@@ -165,18 +167,21 @@ figure {
 }
 
 /*offert-wrapper*/
+
 .offert-wrapper {
     width: 100%;
     display: flex;
     margin-top: 15px;
     padding-bottom: 50px;
 }
+
 .offert-wrapper h5 {
     margin: 0;
-    color:#413d88; 
+    color: #413d88;
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 .offert-wrapper figure {
     width: 50px;
     height: 50px;
@@ -188,20 +193,20 @@ figure {
     border-radius: 50%;
     border: 1px solid #ff530d;
     margin-right: 5px;
-    color:#413d88;
+    color: #413d88;
     margin-bottom: 30px;
 }
 
-.offert-title p{
-    margin-top:20px;
+.offert-title p {
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
 /*contact-form section*/
 
-.contact-form{
+.contact-form {
     height: 80vh;
-    background:linear-gradient(135deg, rgba(30,87,153,0.7) 0%,rgba(15,33,145,0.7) 46%,rgba(15,33,145,0.7) 46%,rgba(32,124,202,0.7) 98%,rgba(41,137,216,1) 100%), url('../img/hand-2111445_1920.jpg');
+    background: linear-gradient(135deg, rgba(30, 87, 153, 0.7) 0%, rgba(15, 33, 145, 0.7) 46%, rgba(15, 33, 145, 0.7) 46%, rgba(32, 124, 202, 0.7) 98%, rgba(41, 137, 216, 1) 100%), url('../img/hand-2111445_1920.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -209,11 +214,10 @@ figure {
     padding-bottom: 80px;
     color: #fff;
 }
+
 .contact-form h2 {
     color: #fff;
 }
-
-
 
 form {
     padding-top: 80px;
@@ -224,15 +228,18 @@ form {
     justify-content: center;
 }
 
-input[type="text"], textarea {
+input[type="text"],
+textarea {
     background: transparent;
     margin: 10px;
     border: 0px;
     border-bottom: 1px solid #fff;
 }
+
 input[type="text"]::placeholder {
-   color: #ff530d;
+    color: #ff530d;
 }
+
 textarea::placeholder {
     color: #ff530d;
 }
@@ -241,7 +248,6 @@ footer {
     background: #fff;
     color: #413d88;
     padding: 80px 0 0px 0;
-   
 }
 
 .offert-btn {
@@ -255,18 +261,17 @@ footer {
     justify-content: space-between;
     min-height: 320px;
 }
+
 .offert-content .btn-orange {
     background: transparent;
-    color:  #ff530d;
-    border: 1px solid  #ff530d;
+    color: #ff530d;
+    border: 1px solid #ff530d;
     transition: 0.5s;
-
 }
 
 .offert-content .btn-orange:hover {
     background: #ff530d;
     color: #fff;
-
 }
 
 .footer-social {
@@ -274,12 +279,22 @@ footer {
     height: 80px;
     background: #413d88;
     color: #fff;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top:80px;
+    margin-top: 80px;
+}
+
+.footer-social .container,
+.footer-social .row {
+    height: 100%;
 }
 
 .footer-social i {
     margin: 10px;
+}
+
+.footer-social-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
