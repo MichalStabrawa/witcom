@@ -21,6 +21,9 @@ header.offert-header {
     margin-top: 30px;
     margin-bottom: 80px;
 }
+.products-info i {
+    color: #ff530d;
+}
 
 .products-info::after{
     content: "";
