@@ -227,7 +227,7 @@ figure {
 
 .contact-form {
     height: 80vh;
-    background: linear-gradient(135deg, rgba(30, 87, 153, 0.7) 0%, rgba(15, 33, 145, 0.7) 46%, rgba(15, 33, 145, 0.7) 46%, rgba(32, 124, 202, 0.7) 98%, rgba(41, 137, 216, 1) 100%), url('../img/hand-2111445_1920.jpg');
+    background: url('../img/hand-2111445_1920.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
