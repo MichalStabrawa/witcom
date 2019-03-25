@@ -37,4 +37,7 @@
     .contact-form {
         height: auto;
     }
+    nav img {
+        height: 100%;
+    }
 }
