@@ -26,7 +26,7 @@ nav {
 }
 
 nav img {
-    height: 120px;
+    height: 80px;
 }
 
 .logo {
@@ -162,7 +162,7 @@ header h2 {
 
 .bg-one {
     background-image: url('../img/fabryka.png');
-    height: 65vh;
+    height: 70vh;
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -284,15 +284,14 @@ footer {
 }
 
 .offert-content .btn-orange {
-    background: transparent;
-    color: #ff530d;
-    border: 1px solid #ff530d;
+    
     transition: 0.5s;
 }
 
 .offert-content .btn-orange:hover {
-    background: #ff530d;
-    color: #fff;
+    background: #fff;
+    color: #ff530d;
+    border: 1px solid #ff530d;
 }
 
 .footer-social {
@@ -335,4 +334,7 @@ footer {
 
 .logo2 img {
     height: 80px;
+}
+.p-content {
+    text-shadow: 2px 2px 2px #1C6EA4;
 }
