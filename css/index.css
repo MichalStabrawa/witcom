@@ -46,6 +46,14 @@ nav img {
     display: flex;
     align-items: center;
 }
+.nav-item > ul {
+    display: flex;
+    margin: 0;
+}
+
+.nav-item > ul > li {
+    list-style-type: none;
+}
 
 .nav-item a {
     margin: 10px;
@@ -271,6 +279,10 @@ footer {
     padding: 80px 0 0px 0;
 }
 
+.footer-wrapper-item {
+    margin-bottom: 15px;
+}  
+
 .offert-btn {
     width: 100%;
     text-align: right;
@@ -337,4 +349,12 @@ footer {
 }
 .p-content {
     text-shadow: 2px 2px 2px #1C6EA4;
+}
+.menu-mobile{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.menu-mobile {
+    display: none;
 }

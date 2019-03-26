@@ -17,9 +17,35 @@
 @media(max-width: 768px){
     .nav-item {
         display: none;
+        width: 100%;
+        flex-direction: column;
+        background: #fff;
+        
     }
    .icons .icons-item-last {
         max-width: 50%;
+    }
+    .menu-mobile {
+        display: flex;
+    }
+    .nav-main {
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav-item > ul {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        border-top: 1px solid #070063;
+    }
+    nav {
+        height: auto;
+        
+        
     }
    
 }
@@ -38,7 +64,7 @@
         height: auto;
     }
     nav img {
-        height: 100%;
+        height: 80px;
     }
     .logo-two-item2 span img {
         height: 40px;
