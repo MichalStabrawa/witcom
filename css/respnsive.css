@@ -26,7 +26,11 @@
         max-width: 50%;
     }
     .menu-mobile {
-        display: flex;
+        display: block;
+        
+    }
+    .mobile-hamburger {
+        cursor: pointer;
     }
     .nav-main {
         flex-wrap: wrap;
@@ -44,8 +48,7 @@
     }
     nav {
         height: auto;
-        
-        
+             
     }
    
 }
