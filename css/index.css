@@ -103,6 +103,10 @@ header {
 
 header h1 {
     font-size: 60px;
+    text-shadow: 2px 2px 2px #1C6EA4;
+}
+header h2 {
+    text-shadow: 2px 2px 2px #1C6EA4;
 }
 
 header h1,
@@ -282,6 +286,9 @@ footer {
 .footer-wrapper-item {
     margin-bottom: 15px;
 }  
+.footer-wrapper-item i {
+    margin-right: 10px;
+}
 
 .offert-btn {
     width: 100%;
@@ -356,5 +363,8 @@ footer {
     align-items: center;
 }
 .menu-mobile {
-   
+   display: none;
+}
+.fa-phone {
+    transform: rotate(90deg);
 }

@@ -1,6 +1,9 @@
 header.offert-header {
     height: 300px;
 }
+header.offert-header h2 {
+    text-shadow: 2px 2px 2px #1C6EA4;
+}
 
 .products {
    padding-top: 80px;
