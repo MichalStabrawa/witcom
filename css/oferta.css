@@ -76,13 +76,52 @@ header.offert-header h2 {
     padding-bottom: 80px;
 }
 
-.contact-main form input[type="text"],
+.form-contact {
+    padding-top: 80px;
+}
+
+.form-contact form input[type="text"],
 textarea {
     background: transparent;
     margin: 10px;
     border: 0px;
     border-bottom: 1px solid #070063;
+    padding-bottom: 5px;
 }
 .contact-main form {
     padding: 0;
+}
+
+.fast-contact {
+    width: 100%;
+    background: #ff530d;
+    height: 100px;
+}
+.fast-contact div{
+    height: 100%;
+}
+.fast-contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
+
+.fast-contact-wrapper h3 {
+    margin: 0;
+}
+.fast-contact i {
+    color: #0056b3;
+}
+
+.message {
+    height: 70px;
+    background: #fff;
+    border: 0px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
