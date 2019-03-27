@@ -71,3 +71,18 @@ header.offert-header h2 {
 .info-content {
     margin-top: 80px;
 }
+.contact-main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-main form input[type="text"],
+textarea {
+    background: transparent;
+    margin: 10px;
+    border: 0px;
+    border-bottom: 1px solid #070063;
+}
+.contact-main form {
+    padding: 0;
+}
