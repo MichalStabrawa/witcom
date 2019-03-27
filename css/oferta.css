@@ -17,6 +17,10 @@ header.offert-header h2 {
 .products-img img {
     width: 100%;
 }
+.products-img {
+    display: block;
+    margin-bottom: 20px;
+}
 
 .products p {
     font-size: 20px;
@@ -45,4 +49,25 @@ header.offert-header h2 {
 
 .products .product-content {
     color: #000;
+}
+
+.info-title {
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.products-item-img::after {
+    content: "";
+    width: 20%;
+    height: 1px;
+   border-bottom: 1px solid #ff530d;
+    display: block;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    
+   
+    margin: 0 auto;
+}
+.info-content {
+    margin-top: 80px;
 }
