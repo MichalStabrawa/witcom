@@ -67,9 +67,12 @@
         height: auto;
     }
     nav img {
-        height: 80px;
+        height: 60px;
     }
     .logo-two-item2 span img {
         height: 40px;
+    }
+    nav .nav-main .logo span img {
+        height: 50px;
     }
 }
